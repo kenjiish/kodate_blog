@@ -14,6 +14,7 @@
   width:100%;
   font-family: 'Open Sans', sans-serif;
   letter-spacing:1.5px;
+  box-sizing: border-box;
 }
 
 /*めんどくさいので<UL><LI>はこれを宣言しています*/
@@ -1107,13 +1108,23 @@ li :hover {
 }
 
 .right-group span {
-  font-size:11px;
+
+  /*font-size:11px;
   text-align:center;
   padding:2px;
   border:1px solid #CCB07E;
   color:#CCB07E;
   margin-right:4px;
-  margin-bottom:8px;
+  margin-bottom:8px;*/
+background:#fff;
+ border:1px solid #bbb;
+ color:#666;
+ padding:6px;
+ margin:3px;
+ border-radius:1px;
+ text-decoration:none;
+ font-size:12px;
+ height:8px;
 }
 
 .right-group h4 {

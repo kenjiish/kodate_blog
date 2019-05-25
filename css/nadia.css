@@ -15,6 +15,7 @@
   font-family: 'Open Sans', sans-serif;
   letter-spacing:1.5px;
   min-width:1500px;
+  box-sizing: border-box;
 }
 
 /*めんどくさいので<UL><LI>はこれを宣言しています*/
@@ -282,9 +283,18 @@ li :hover {
 
 .top-left-under{
  padding:4% 5%;
-
-
 }
+
+.top-left-under h3{
+ font-size: 12px;
+ margin:8px 0;
+}
+
+.top-left-under p{
+ font-size: 10.5px;
+ margin:8px 0;
+}
+
 
 .top-left-under img{
  width:100%;
@@ -414,6 +424,7 @@ li :hover {
 .recipe-block h4{
  font-size:0.7vw;
  color:#0B0039;
+ margin:8px 0;
 }
 
 .img-rabel{
@@ -450,7 +461,7 @@ li :hover {
   padding: 4% 0%;
   color: #fff;
   font-size: 10px;
-  background:#0B0039;
+  background:#EF9697;
   float:left;
   width:30%;
 }
@@ -462,7 +473,7 @@ li :hover {
   left: 100%;
   margin-top: -15px;
   border: 15px solid transparent;
-  border-left: 15px solid #0B0039;
+  border-left: 15px solid #EF9697;
 }
 
 .top-title11 p {
@@ -703,6 +714,7 @@ li :hover {
  background-color:#FFF;
  border:1px solid rgba(225,225,225);
  box-shadow: 0px 2px 10px rgba(225,225,225,.9);
+ margin-bottom:240px;
 
 
 }
@@ -823,12 +835,12 @@ li :hover {
 }
 
 .ranking-left-left img{
- width:100%;
+ width:100px;
 }
 
 .ranking-left-right{
- float:left;
- width:70%;
+ float:right;
+ width:50%;
  padding:0% 3%;
 }
 
