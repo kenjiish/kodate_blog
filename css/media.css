@@ -38,6 +38,11 @@ a:hover {
   opacity:0.6;
 }
 
+img :hover{
+  opacity: 0,6
+}
+
+
 /*メニューのcssは村松が担当します*/
 
 #menu {
@@ -222,8 +227,8 @@ li :hover {
 }
 
 #menu-bottom ul li :hover {
-  color:#F8C333;
-  background-color:#320B04;
+  color:#0B0039;
+  background-color:rgba(255,255,255,0.9);
   padding:13px;
 }
 
@@ -1103,29 +1108,29 @@ li :hover {
 }
 
 .right-group ul li {
-  height:20px;
   display: inline-block;
-  margin: 0 .3em .3em 0;
+  margin: 8px 8px 8px 0;
   padding: 0;
+  float: left;
+  
 }
 
 .right-group a {
-   display: inline-block;
+  display: inline-block;
   max-width: 100px;
   height: 28px;
   line-height: 28px;
-  padding: 0 1em;
   background-color: #fff;
   border: 1px solid #aaa;
   border-radius: 3px;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden;
   color: #333;
-  font-size: 13px;
+  font-size: 12px;
   text-decoration: none;
   -webkit-transition: .2s;
   transition: .2s;
+  padding:0 6px;
 }
 
 
@@ -1958,7 +1963,6 @@ background:#fff;
 
 #column-image p {
   font-size:15px;
-  padding-top:35px;
   line-height:1.3;
 }
 
