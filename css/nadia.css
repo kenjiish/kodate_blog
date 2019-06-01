@@ -1800,8 +1800,8 @@ li :hover {
 /*  asociation  始めます　*/
 
 .association {
-  width:94%;
-  margin-left:3%; 
+  width:100%;
+  
 }
 
 .as-column {
@@ -1816,14 +1816,10 @@ li :hover {
 
 .as-left img {
   width:60%;
-  margin-left:10%;
+  
 }
 
-.as-right {
-  padding:15px 0px;
-  float:left;
-  width:80%;
-}
+
 
 .as-right p {
   font-size:12px;
@@ -2519,9 +2515,13 @@ li :hover {
   width:100%;
 }
 
+.column-paragrah{
+  margin-bottom: 60px;
+}
+
 .qb {
   width:94%;
-  margin-left:3%;
+
 }
 
 .qb h1 {

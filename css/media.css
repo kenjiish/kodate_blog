@@ -213,8 +213,8 @@ li :hover {
 }
 
 #menu-bottom ul {
-  width:75%;
-  margin:0% 12.5%;
+  width:80%;
+  margin:auto;
 }
 
 #menu-bottom ul li {
@@ -980,27 +980,28 @@ li :hover {
 /*  asociation  始めます　*/
 
 .association {
-  width:94%;
-  margin-left:3%; 
+  width:100%;
+
 }
 
 .as-column {
-  width:100%;
+  width:90%;
+  margin:auto;
 }
 
 .as-left {
-  padding:10px 0px;
+  padding:16px 0px;
   float:left;
   width:20%;
 }
 
 .as-left img {
-  width:60%;
-  margin-left:10%;
+  width:90%;
+  
 }
 
 .as-right {
-  padding:15px 0px;
+  padding:16px 0px;
   float:left;
   width:80%;
 }
@@ -1084,7 +1085,7 @@ li :hover {
   width:100%;
   height: auto;
   background-color:#fff;
-  border:1px solid #D2C8BE;
+  border:1px solid rgba(225,225,225);
 }
 
 .right-box h1 {
@@ -1094,7 +1095,8 @@ li :hover {
   border-top:2.5px solid #0B0039;
   padding:10px;
   padding-left:13px;
-  border-bottom:1px solid #D2C8BE;
+  border-bottom: 1px solid rgba(225,225,225);
+  
 }
 
 .right-group {
@@ -1779,8 +1781,8 @@ background:#fff;
 }
 
 .qb {
-  width:94%;
-  margin-left:3%;
+  width:100%;
+
 }
 
 .qb h1 {
@@ -1982,13 +1984,13 @@ background:#fff;
 
 .blaun a{
   display: inline-block;
-  border: 1px solid #5a320a;
+  border: 1px solid #0B0039;
   width: 24px;
   height: 24px;
   margin-right: 8px;
   color: #fff;
   text-decoration: none;
-  background:#5a320a;
+  background:#0B0039;
   padding-top:5px;
 }
 
@@ -2002,11 +2004,10 @@ background:#fff;
 .white a{
   color:#0B0039;
   display: inline-block;
-  border: 1px solid #5a320a;
+  border: 1px solid #0B0039;
   width: 24px;
   height: 24px;
   margin-right: 8px;
-  color: #5a320a;
   text-decoration: none;
   background: #fff;
   padding-top:5px;
@@ -2021,7 +2022,7 @@ background:#fff;
 }
 
 #up-point .fas {
-  background-color:#5a320a;
+  background-color:#0B0039;
   color:#fff;
   font-size:15px;
   padding:15px;
@@ -2054,7 +2055,12 @@ background:#fff;
 
 #wrappar {
   width:100%;
-  position:absolute;
+
+}
+
+#mein-block1{
+  width:100%;
+  float: none;
 }
 
 #menu {
