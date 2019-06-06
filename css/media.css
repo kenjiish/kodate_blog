@@ -771,26 +771,39 @@ li :hover {
 }
 
 .key-con-ul ul li {
-  background-color:#E8E3DD;
-  color:#6E4C27;
-  border:1px solid #D2C8BE;
+  
   width:auto;
-  padding:2px;
+  padding:4px 4px ;
   border-radius:3px;
   display:inline-block;
-  margin-right:5px;
+  
+  
+
 }
 
 .key-con-ul ul li a {
-  color:#6E4C27;
+  display: inline-block;
+    max-width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+    padding: 0 6px;
 }
 
 .key-con-ul ul li :hover {
-  color:#6E4C27;
-  border:1px solid #D2C8BE;
-  background-color:#fff;
-  border-bottom:1px solid #000;
-  border-radius:3px;
+    background-color:#7fbfff;
+  color:#fff;
+  border:1px #fff solid;
+  
 }
 
 /*  key-words  終わります */
@@ -1133,6 +1146,14 @@ li :hover {
   -webkit-transition: .2s;
   transition: .2s;
   padding:0 6px;
+}
+
+
+.right-group ul li :hover { 
+  background-color:#7fbfff;
+  color:#fff;
+  border:1px #fff solid;
+
 }
 
 
@@ -1658,7 +1679,7 @@ background:#fff;
 }
 
 .clear2 {
-  width:88%;
+  width:100%;
   font-size:11px;
   color:#000;
 }
@@ -1669,7 +1690,7 @@ background:#fff;
 
 .ftop-message h3 {
   color:#8E8E8E;
-  font-size:13px;
+  font-size:15px;
   line-height:1;
   font-weight:lighter;
 }
@@ -1815,9 +1836,9 @@ background:#fff;
 }
 
 .guard {
-  width:60%;
+  width:70%;
   margin:20px 0px;
-  margin-left:20%;
+  
 }
 
 .guard img {
@@ -2352,8 +2373,16 @@ background:#fff;
   width:100%;
   float:none;
 }
+
+.key-con-ul ul {
+  て
+
+
+
+}
+
 .key-con-ul ul li {
-    background-color: #E8E3DD;
+    background-color: #fff;
     color: #6E4C27;
     border: 1px solid #D2C8BE;
     width: auto;
@@ -2362,6 +2391,11 @@ background:#fff;
     display: inline-block;
     margin-right: 68px;
     font-size: 46px;
+}
+
+.key-con-ul a {
+
+
 }
 
 .form h3 {

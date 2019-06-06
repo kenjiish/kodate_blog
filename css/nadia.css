@@ -1591,14 +1591,14 @@ li :hover {
 }
 
 .key-con-ul ul li {
-  background-color:#E8E3DD;
+  /*background-color:#E8E3DD;
   color:#6E4C27;
   border:1px solid #D2C8BE;
   width:auto;
   padding:2px;
   border-radius:3px;
   display:inline-block;
-  margin-right:5px;
+  margin-right:5px;*/
 }
 
 .key-con-ul ul li a {
@@ -1804,9 +1804,7 @@ li :hover {
   
 }
 
-.as-column {
-  width:100%;
-}
+
 
 .as-left {
   padding:10px 0px;
@@ -2554,9 +2552,8 @@ li :hover {
 }
 
 .guard {
-  width:60%;
-  margin:20px 0px;
-  margin-left:20%;
+  width:70%;
+  
 }
 
 .guard img {
