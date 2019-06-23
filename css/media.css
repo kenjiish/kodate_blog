@@ -15,6 +15,7 @@
   font-family: 'Open Sans', sans-serif;
   letter-spacing:1.5px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 /*めんどくさいので<UL><LI>はこれを宣言しています*/
@@ -40,6 +41,9 @@ a:hover {
 
 img :hover{
   opacity: 0,6
+}
+*{
+  box-sizing: border-box;
 }
 
 
@@ -1087,6 +1091,7 @@ li :hover {
   width:28%;
   margin-left:2%;
   float:left;
+  margin-top: 40px;
 }
 
 #mini-resipi  {
@@ -2084,6 +2089,7 @@ background:#fff;
 
 /*  共通部分はここに書いていきます　*/
 
+
 #wrappar {
   width:100%;
 
@@ -2097,13 +2103,14 @@ background:#fff;
 #mein-left{
   width:100%;
   float:none;
-
 }
 
 #mein-block-1{
   clear: both;
   float: none;
 }
+
+
 
 .top-left{
   width:100%;
@@ -2112,6 +2119,7 @@ background:#fff;
   height:auto;
   margin:auto;
   clear: both;
+  box-shadow: none;
 }
 .top-right{
    width:100%;
@@ -2120,10 +2128,25 @@ background:#fff;
   height:auto;
   margin:auto;
   clear: both;
-
-
-
+  box-shadow: none;
 }
+
+.right-under{
+  box-shadow: none;
+}
+
+.right-top{
+  height:auto;
+  box-shadow: none;
+}
+
+.recipe-block{
+ float:left;
+ width:100%;
+ padding:4%;
+}
+
+
 
 .pick-up{
     width:100%;
@@ -2132,9 +2155,52 @@ background:#fff;
   height:auto;
   margin:auto;
   clear:both;
+  margin-top:1200px;
 
 }
 
+.pick-up-content{
+  padding:4%;
+}
+.content-left {
+  float: none;
+  width:100%;
+}
+.content-right{
+  float: none;
+  width:100%;
+  margin-left: 0
+}
+
+.common_tag ul li {
+    margin: 2px 5px 2px 0px;
+    float: left;
+}
+
+#column-image{
+  width:100%;
+  margin:0;
+}
+.column-box{
+  width:300px;
+  height: 80px;
+}
+
+.column-box h1{
+  font-size:1.4em;
+  margin:5% 8%;
+}
+
+#column-image p{
+  font-size:10px;
+}
+
+.guard{
+  width: 100%;
+}
+.foot-ball{
+  padding:4px;
+}
 #menu {
   display:none;
 }
@@ -2161,12 +2227,21 @@ background:#fff;
 }
 
 #main-left {
-  max-width:100%;
+  width:100%;
+}
+.as-left{
+  float: none;
+  width: 100%;
+  height: auto;
+}
+.as-right{
+  float: none;
+  width: 100%;
+  height: auto;
 }
 
 #main-right {
-  width:100%;
-  margin:0px;
+  display: none;
 }
 
 
@@ -2306,7 +2381,7 @@ background:#fff;
 }
 
 .f-menu-left h2 {
-    font-size: 66px;
+    font-size: 16px;
     color: #0B0039;
     padding: 0px 15px;
 }
@@ -2432,7 +2507,7 @@ background:#fff;
 
 }
 
-.key-con-ul ul li {
+/*.key-con-ul ul li {
     background-color: #fff;
     color: #6E4C27;
     border: 1px solid #D2C8BE;
@@ -2442,12 +2517,12 @@ background:#fff;
     display: inline-block;
     margin-right: 68px;
     font-size: 46px;
-}
+}*/
 
-.key-con-ul a {
+/*.key-con-ul a {
 
 
-}
+}*/
 
 .form h3 {
     width: 96%;
@@ -2473,6 +2548,13 @@ background:#fff;
 
 /*  nadia-koi.html  のレスポンシブデザインはここまでです  */
 
+
+/*------list.html レスポンシブ--------*/
+
+#column-image{
+
+
+}
 
 
 }
