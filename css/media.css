@@ -2120,6 +2120,12 @@ background:#fff;
   margin:auto;
   clear: both;
   box-shadow: none;
+  border:none;
+}
+
+.top-left1{
+  border-top:rgba(225,225,225) 1px solid;
+
 }
 .top-right{
    width:100%;
@@ -2129,15 +2135,27 @@ background:#fff;
   margin:auto;
   clear: both;
   box-shadow: none;
+  border:none;
 }
 
 .right-under{
   box-shadow: none;
+  margin:0;
+  border:none;
+}
+.right-top-title1 {
+  border-top:rgba(225,225,225) 1px solid;
+
 }
 
 .right-top{
   height:auto;
   box-shadow: none;
+  border:none;
+}
+.right-top-title{
+    border-top:rgba(225,225,225) 1px solid;
+
 }
 
 .recipe-block{
