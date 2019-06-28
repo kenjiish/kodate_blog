@@ -344,14 +344,20 @@ li :hover {
 /* mini-menu 始めます */
 
 #mini-menu {
-  width:70%;
-  margin-right:30%;
+  width:90%;
+ margin:auto;
   text-align:left;
-  padding:20px;
+  padding:20px 0px ;
+}
+
+#mini-menu ul li{
+  float: left;
+
 }
 
 #mini-menu li {
-  text-align:left;
+  text-align:center;
+  padding-right:12px;
 }
 
 #mini-menu span {
@@ -1091,7 +1097,7 @@ li :hover {
   width:28%;
   margin-left:2%;
   float:left;
-  margin-top: 40px;
+  margin-top: 48px;
 }
 
 #mini-resipi  {
@@ -2173,8 +2179,13 @@ background:#fff;
   height:auto;
   margin:auto;
   clear:both;
-  margin-top:1200px;
+  margin-top:1100px;
+  box-shadow: none;
+  border:none;
+}
 
+.pick-up-title {
+  border-top:1px solid rgba(225,225,225);
 }
 
 .pick-up-content{
@@ -2261,6 +2272,17 @@ background:#fff;
 #main-right {
   display: none;
 }
+
+.top-rabel11 a  {
+  display: none;
+}
+
+.top-title211 a {
+  width:80%;
+}
+
+
+
 
 
 #footer-top {
